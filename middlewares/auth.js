@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const { unAuthenticated } = require("../helpers/error");
 require("dotenv").config();
-const BlacklistToken = require("../models/logout");
+// const BlacklistToken = require("../models/logout");
 
 
 const isAuthenticated = async (req, res, next) => {
